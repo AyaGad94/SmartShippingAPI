@@ -1,0 +1,16 @@
+************ By Using Strategy Design Pattern*************
+It’s useful when you have multiple ways to perform a task and want to switch between them dynamically at runtime without using if-else or switch statements.
+
+***The Goal***
+E-commerce websites need to calculate shipping cost based on different strategies.
+
+Controllers/
+DTOs/
+Profiles/
+Models/
+Services/ShippingCostCalculator.cs>>>>>
+        /ShippingStrategies/
+                           IShippingStrategy.cs>>>public interface
+                           FastestShipping.cs
+                           CheapestShipping.cs
+                           GreenShipping.cs
